@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    NSArray *_places;
+}
+@property (weak, nonatomic) IBOutlet UITableView *placesTableView;
 
 
 @end
